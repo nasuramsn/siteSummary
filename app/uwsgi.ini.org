@@ -1,0 +1,7 @@
+[uwsgi]
+socket = :8001
+module = sitesummary.wsgi
+wsgi-file = /app/app/sitesummary/wsgi.py
+logto = /app/app/sitesummary/log/uwsgi.log
+chdir=/app/app/sitesummary
+py-autoreload = 1
